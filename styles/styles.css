@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  font-size: 1.6rem; 
+}
+
+main {
+  height: 100%;
+  background-color: rgb(222,240,252);
+  display: -webkit-box;   
+  display: -moz-box;         
+  display: -ms-flexbox;      
+  display: -webkit-flex;    
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+article {
+  width: 25%;
+  min-height: 200px; 
+  background-color: rgb(255, 255, 255); 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.user-list {
+  list-style-type: none; 
+  margin: 0; 
+  padding: 10px; 
+}
+
+.user-list-name {
+  padding: 10px 5px; 
+}
+
+.user-list-name:hover {
+  background-color: rgb(204,204,204); 
+}
+
