@@ -4,6 +4,11 @@ window.addEventListener('load', generateList);
 
 
 function generateList() {
-  formatName(users[0].fname, users[0].lname)
+  const names = users.map(user => {
+    return formatName(user.fname, user.lname)
+  });
+  names.forEach(name => {
+    userList.innerHTML += `<li class="user-list-name">${name}</li>`
+  })
 }
 
