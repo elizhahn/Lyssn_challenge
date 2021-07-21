@@ -9,6 +9,6 @@ class User {
     const lCap = this.lname[0].toUpperCase();
     const fSubstring = this.fname.slice(1);
     const lSubstring = this.lname.slice(1);
-    return `${fCap + fSubstring}, ${lCap + lSubstring}` 
+    return `${lCap + lSubstring}, ${fCap + fSubstring}` 
   }
 }
