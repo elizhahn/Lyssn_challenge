@@ -8,4 +8,4 @@ const users = [
   {"fname":"renat", "lname":"gros", "id":1894039, "isTherapist":true},
   
   {"fname":"bettino", "lname":"yang", "id":3789204, "isTherapist":true}
-]
+];
