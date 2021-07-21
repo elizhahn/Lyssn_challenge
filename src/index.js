@@ -4,7 +4,8 @@ window.addEventListener('load', generateList);
 
 function generateList() {
   const names = users.map(user => {
-    return formatName(user.fname, user.lname)
+     const currUser = new User(user.fname, user.lname);
+     return currUser.formatName()
   });
   names.forEach(name => {
     userList.innerHTML += `<li class="user-list-name">${name}</li>`
