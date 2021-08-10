@@ -34,10 +34,35 @@ article {
   padding: 10px; 
 }
 
+.user-list-item {
+  display: flex;
+  flex-direction: column; 
+}
+
 .user-list-name {
-  padding: 10px 5px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 5px;
+  margin: 0px;  
 }
 
 .user-list-name:hover {
   background-color: rgb(204,204,204); 
+}
+
+.user-list-info {
+  padding-left: 10px; 
+}
+
+.orange {
+  color: #f3863e;
+}
+
+.purple {
+  color: rgb(151 5 151 / 55%);
+}
+
+.hidden {
+  display: none; 
 }

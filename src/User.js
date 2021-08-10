@@ -1,7 +1,9 @@
 class User {
-  constructor(fname, lname) {
+  constructor(fname, lname, isTherapist, id) {
     this.fname = fname;
     this.lname = lname;
+    this.isTherapist = isTherapist;
+    this.id = id;  
   }
 
   formatName() {
